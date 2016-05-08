@@ -1,0 +1,207 @@
+/* line 3, stdin */body{display:flex;min-height:100vh;flex-direction:column}/* line 9, stdin */main{flex:1 0 auto}
+
+body {
+  background: url("images/WildBillsBackground.png") no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-attachment: scroll;
+  background-attachment: fixed;
+  background-attachment: local;
+
+  background-attachment: inherit;
+*/
+
+  background-position:center;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+#cover_title {
+  text-align: center;
+  color: white;
+  margin: 100px auto;
+}
+
+#sft_dev {
+  text-align: center;
+  font-family: 'Inconsolata';
+  margin-top: 50px;
+  color: red;
+  text-shadow: 2px 2px 2px black;
+}
+
+#composer_div {
+  margin-top: 150px;
+}
+
+#composer {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 100px;
+  color: blue;
+  text-shadow: 1px 1px 2px grey, 0 0 .2em grey, 0 0 0.4em blue;
+  /*text-shadow: 1px 1px 2px lightgrey;*/
+}
+
+#composer:hover {
+  background: radial-gradient(ellipse, rgba(255, 0, 0, 0.8) 0%, rgba(255, 0, 0, 0.5) 40%, rgba(255, 0, 0, 0) 70%);
+}
+
+#sft_dev:hover {
+  background: radial-gradient(ellipse, rgba(0, 55, 255, 0.8) 0%, rgba(200, 200, 200, 0.5) 40%, rgba(255, 255, 255, 0) 70%);
+}
+
+
+/*Software Dev*/
+/*colors to use:
+BLUE:
+light blue
+#5B90EC
+dark blue
+#141E51
+rgba(20, 30, 81, .7);
+light blue
+#32ADE9
+white
+#68A0F5
+#04296F
+white
+#D8F3FE
+*/
+
+.navbar-fixed {
+  color: black;
+}
+
+#Top_Intro {
+  width: 100%;
+  height: 300px;
+}
+
+#About, #Skills, #Projects, #Contact {
+  font-family: 'Inconsolata';
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: inset 0 0 15px #D8F3FE;
+  border: solid 2px #141E51;
+  background-color: rgba(20, 30, 81, .9);
+  padding: 15px 0;
+  width: 95%;
+  margin-bottom: 100px;
+}
+
+.info_border {
+  border-radius: 20px;
+  box-shadow: inset 0 0 15px #D8F3FE;
+  background-color: rgba(50,173,233,.5);
+  border: solid 2px #141E51;
+  width: 95%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#front_ground2 {
+  margin-top: 400px;
+}
+
+.div_text {
+  color: #68A0F5;
+  font-size: 20px;
+}
+
+.div_headings {
+  text-shadow: 3px 3px #04296F;
+  padding: 5px 0;
+  border-radius: 20px;
+  box-shadow: inset 0 0 15px #D8F3FE;
+  border: solid 2px #141E51;
+  width: 250px;
+  text-align: center;
+  margin: 17px auto;
+}
+
+.Sft_intro {
+  background-color: rgba(20, 30, 81, .5);
+  font-family: 'Inconsolata';
+  color: #D8F3FE;
+  text-shadow: 4px 4px 4px rgba(20, 30, 81, 1);
+  text-align: center;
+}
+
+.Sft_intro1 {
+  font-size: 120px;
+}
+
+.Sft_intro2 {
+  font-size: 65px;
+}
+
+#Top_Intro {
+  margin-top: 100px;
+}
+
+.skills_imgs {
+  width: 100px;
+  height: 100px;
+}
+
+.skill_rows {
+  margin-bottom: 40px;
+}
+
+
+
+/*MUSICIAN*/
+/*colors to use:
+RED:
+#F2B242
+#050507
+#F3EBA9
+#E33336
+#EE472B
+#BD6A44
+#ED312D
+#F3ECBB
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
+    padding:200px 20px 200px 20px;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+}
+.section-1{
+    background-image:url(http://static4.wikia.nocookie.net/__cb20130612023354/harrypotter/images/d/d1/Gradient-blue-background.jpg);
+    background-position:center;
+}
+.section-2{
+    background-image:url(http://th00.deviantart.net/fs49/PRE/f/2009/207/e/d/Orange_Desktop_Background_by_The_Dogfather.png);
+    background-position:center;
+}
+.section-3{
+    background-image:url(http://oaklandbaptist.org/media/Green-Background.jpg);
+    background-position:center;
+}
+
+*/
+
+
