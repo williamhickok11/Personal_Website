@@ -14,11 +14,13 @@ var velocity = 0.07;
 
 function update(){
 var pos = $(window).scrollTop();
+console.log("pos", pos);
 $('body').each(function() {
       var $element = $(this);
       // subtract some from the height b/c of the padding
       var height = $element.height();
-      $(this).css('backgroundPosition', '50% ' + (Math.round((height - pos) * velocity)) +  'px');
+      console.log("height", height);
+      $(this).css('backgroundPosition', '50% ' + (-(Math.round((pos) * velocity))) +  'px');
     });
   };
 
