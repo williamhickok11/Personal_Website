@@ -8,6 +8,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-size: 1500px;
+  background-repeat: repeat;
   /*background-attachment: scroll;
   background-attachment: fixed;
   background-attachment: local;
@@ -74,7 +75,7 @@ body {
 }
 
 #sft_dev:hover {
-  background: radial-gradient(ellipse, rgba(0, 55, 255, 0.8) 0%, rgba(200, 200, 200, 0.5) 40%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(ellipse, rgba(20, 30, 81, .8) 0%, rgba(200, 200, 200, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
 }
 
 
@@ -88,6 +89,15 @@ light blue
 dark blue
 #141E51
 rgba(20, 30, 81, .7);
+173.63
+
+175.96
+
+159.44
+
+#AEB09F
+
+
 light blue
 #32ADE9
 white
@@ -97,8 +107,8 @@ white
 #D8F3FE
 */
 
+
 .navbar-fixed {
-  color: black;
 }
 
 #Top_Intro {
@@ -118,19 +128,36 @@ white
   margin-bottom: 100px;
 }
 
+#About {
+  min-height: 400px;
+}
+
+@media (max-width: 839px) {
+  #About {
+    margin-top: 210px;
+  }
+}
+
+.aboutme_info {
+  margin: 0 auto;
+  margin-left: 15px;
+}
+
 .profile_pic {
-  display: inline;
+  float: left;
+  margin: 0 15px;
   width: 200px;
 }
 
 .info_border {
   border-radius: 20px;
-  box-shadow: inset 0 0 15px #D8F3FE;
-  background-color: rgba(50,173,233,.5);
+  box-shadow: inset 0 0 15px #141E51;
+  background-color: rgba(173,175,159,.5);
   border: solid 2px #141E51;
   width: 95%;
   text-align: center;
   margin: 0px auto;
+  min-height: 390px;
 }
 
 #front_ground2 {
@@ -139,12 +166,19 @@ white
 
 .div_text {
   display: inline;
-  color: #68A0F5;
+  color: #D8F3FE;
+  text-shadow: 4px 4px 4px rgba(20, 30, 81, 1);
   font-size: 20px;
 }
 
+.div_text_div {
+  text-align: justify;
+  margin: 0 40px;
+}
+
 .div_headings {
-  text-shadow: 3px 3px #04296F;
+  background: rgba(20, 30, 81, .8);
+  text-shadow: 1px 1px #D8F3FE;
   padding: 5px 0;
   border-radius: 20px;
   box-shadow: inset 0 0 15px #D8F3FE;
@@ -152,6 +186,11 @@ white
   width: 250px;
   text-align: center;
   margin: 17px auto;
+}
+
+.profile_pic {
+  border-radius: 11px;
+  box-shadow: 0 0 15px #D8F3FE;
 }
 
 .Sft_intro {
@@ -195,6 +234,13 @@ white
   padding: 0;
   margin-bottom: 40px;
 }
+
+.projects_imgs {
+  width: 40%;
+  margin: 20px auto;
+}
+
+
 
 
 

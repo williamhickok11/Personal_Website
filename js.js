@@ -10,7 +10,7 @@ $("#sft_dev").on("click",function(){
   $("body").css('background-image','url("css/images/Software.jpg")');
 })
 
-var velocity = 0.07;
+var velocity = 0.2;
 
 function update(){
 var pos = $(window).scrollTop();
@@ -20,7 +20,7 @@ $('body').each(function() {
       // subtract some from the height b/c of the padding
       var height = $element.height();
       console.log("height", height);
-      $(this).css('backgroundPosition', '50% ' + (-(Math.round((pos) * velocity))) +  'px');
+      $(this).css('backgroundPosition', '50% ' + (-(Math.round((pos) * velocity)) - 100) +  'px');
     });
   };
 
