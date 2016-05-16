@@ -7,10 +7,10 @@ $("#composer").on("click",function(){
 $("#sft_dev").on("click",function(){
   $("#Intro").toggleClass('hidden');
   $("#Sft_Site").toggleClass('hidden');
-  $("body").css('background-image','url("css/images/Software.jpg")');
+  $("body").css('background-image','url("css/images/blueBG.jpg")');
 })
 
-var velocity = 0.2;
+var velocity = .5;
 
 function update(){
 var pos = $(window).scrollTop();
@@ -20,14 +20,14 @@ $('body').each(function() {
       // subtract some from the height b/c of the padding
       var height = $element.height();
       console.log("height", height);
-      $(this).css('backgroundPosition', '50% ' + (-(Math.round((pos) * velocity)) - 100) +  'px');
+      $(this).css('backgroundPosition', '50% ' + (-(Math.round((pos) * velocity))) +  'px');
     });
   };
 
  $(window).bind('scroll', update);
 
-// var winheight = $(window).height()
-// console.log(winheight);
-// function() {
-//   console.log(winheight);
-// }, 100);
+
+
+
+
+
