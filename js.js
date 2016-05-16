@@ -10,6 +10,13 @@ $("#sft_dev").on("click",function(){
   $("body").css('background-image','url("css/images/blueBG.jpg")');
 })
 
+$(".brand-logo").on("click",function(){
+  $("#Intro").toggleClass('hidden');
+  $("#Sft_Site").addClass('hidden');
+  $("#Composer_Site").addClass('hidden');
+  $("body").css('background-image','url("css/images/WildBillsBackground.png")');
+})
+
 var velocity = .5;
 
 function update(){
@@ -25,6 +32,24 @@ $('body').each(function() {
   };
 
  $(window).bind('scroll', update);
+
+
+
+$(document).ready(function(){
+    $(".skills_imgs").hover(function(){
+      $(this).parent.lastchild
+      //Fade in
+        $('.skills_imgs').stop().animate({'margin-top': '200px'}, 1500);
+    }, function(){
+      //Fade out
+        $('.skill_tag').stop().animate({'margin-top': '50px'}, 1500);
+    });
+});
+
+
+
+
+
 
 
 
