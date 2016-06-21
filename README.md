@@ -6,3 +6,8 @@ williamhickok.com
 install instructions:
 
 git clone clone
+
+1. git clone
+1. bower inti
+1. bower install jquery
+1. bower install bootstrap
