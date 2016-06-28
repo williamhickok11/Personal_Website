@@ -1,20 +1,15 @@
 /* line 3, stdin */body{display:flex;min-height:100vh;flex-direction:column}/* line 9, stdin */main{flex:1 0 auto}
 
 body {
-  background: url("images/WildBillsBackground.png") no-repeat center center fixed;
+  /*background: url("images/WildBillsBackground.png") no-repeat center center fixed;*/
+
+  background: url("images/blueBG.jpg") no-repeat center center fixed;
 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*background-size: 1500px;*/
   background-repeat: repeat;
-  /*background-attachment: scroll;
-  background-attachment: fixed;
-  background-attachment: local;
-
-  background-attachment: inherit;
-*/
   background-position:center;
 }
 
@@ -195,6 +190,7 @@ white
 }
 
 .info_border_last {
+  min-height: 80px;
   margin-bottom: 0;
 }
 
@@ -274,13 +270,14 @@ white
 }
 
 #contact_info {
-  margin-top: 40px;
+  margin: 40px 0;
+  padding-bottom: 40px;
 }
 
 .contact_img {
   margin: 0 20px;
-  width: 150px;
-  border-radius: 20px;
+  width: 50px;
+  border-radius: 5px;
 }
 
 .contact_img:hover, .skills_imgs:hover {
