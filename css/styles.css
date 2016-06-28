@@ -290,7 +290,9 @@ white
     animation: wiggle 0.2s ease infinite;
 }
 
-
+.projects_imgs:hover {
+  box-shadow: 0 0 45px #141E51;
+}
 
 
 /*MUSICIAN*/

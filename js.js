@@ -35,16 +35,16 @@ $('body').each(function() {
 
 
 
-$(document).ready(function(){
-    $(".skills_imgs").hover(function(){
-      $(this).parent.lastchild
-      //Fade in
-        $('.skills_imgs').stop().animate({'margin-top': '200px'}, 1500);
-    }, function(){
-      //Fade out
-        $('.skill_tag').stop().animate({'margin-top': '50px'}, 1500);
-    });
-});
+// $(document).ready(function(){
+//     $(".skills_imgs").hover(function(){
+//       $(this).parent.lastchild
+//       //Fade in
+//         $('.skills_imgs').stop().animate({'margin-top': '200px'}, 1500);
+//     }, function(){
+//       //Fade out
+//         $('.skill_tag').stop().animate({'margin-top': '50px'}, 1500);
+//     });
+// });
 
 
 
