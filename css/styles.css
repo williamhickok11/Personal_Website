@@ -132,7 +132,9 @@ white
   margin: 0 auto;
 }
 
-.navbar-fixed {
+.navbar {
+  position: fixed;
+  background-color: #264983;
 }
 
 #Top_Intro {
